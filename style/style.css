@@ -1,27 +1,22 @@
-@font-face {
-  font-family: "Butler";
-  font-weight: 400;
-  src: url("/fonts/Butler/Butler_Regular.otf") format("otf");
-}
-
-html {
+:root {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 }
 
 body {
   color: #000000;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.butler_regular {
-  font-family: 'Butler', 'Times New Roman', serif;
-  font-style: normal;
-  font-weight: 400;
+.butler_light {
+  font-family: 'Butler', 'Times New Roman', Times, serif;
+  font-weight: 300;
 }
 
 .huge_header {
   font-size: 5.4rem;
-  line-height: 5.5rem;
 }
 
 .centered_text {
@@ -32,50 +27,31 @@ body {
   text-transform: uppercase;
 }
 
-.regular_text {
-  font-weight: 400;
-}
-
 .bold_text {
   font-weight: 700;
 }
 
 .section_header {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 1.1rem;
-  line-height: 1.1rem
 }
 
 .medium_text {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 1.1rem;
   color: #636363;
 }
 
-.common_text {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1rem;
-}
-
 .quote_text {
+  font-family: 'Butler', 'Times New Roman', Times, serif;
+  font-weight: 200;
   font-size: 2rem;
-  line-height: 2rem;
 }
 
 .list_header_text {
   font-size: 5.75rem;
-  line-height: 5.8rem;
 }
 
 .list_text {
   font-size: 2.1rem;
-  line-height: 2.1rem;
 }

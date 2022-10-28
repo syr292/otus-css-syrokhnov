@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Butler";
+  font-weight: 200;
+  src: 
+    local("Butler Ultra Light")
+    local("Butler-Ultra-Light")
+    url("/fonts/Butler/Butler_Ultra_Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Butler";
+  font-weight: 300;
+  src: 
+    local("Butler Light")
+    local("Butler-Light")
+    url("/fonts/Butler/Butler_Light.otf") format("otf");
+}
