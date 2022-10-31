@@ -1,0 +1,57 @@
+:root {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+body {
+  color: #000000;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.butler_light {
+  font-family: 'Butler', 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+.huge_header {
+  font-size: 5.4rem;
+}
+
+.centered_text {
+  text-align: center;
+}
+
+.uppercase_text {
+  text-transform: uppercase;
+}
+
+.bold_text {
+  font-weight: 700;
+}
+
+.section_header {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.medium_text {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #636363;
+}
+
+.quote_text {
+  font-family: 'Butler', 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.list_header_text {
+  font-size: 5.75rem;
+}
+
+.list_text {
+  font-size: 2.1rem;
+}
