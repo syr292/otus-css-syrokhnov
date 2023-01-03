@@ -1,6 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 :root {
   font-size: 16px;
   line-height: 1.2;
+}
+
+.invisible {
+  display: none;
 }
 
 body {
@@ -8,6 +18,19 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  background: white;
+}
+
+main {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  min-height: 38rem;
+  max-height: 76rem;
 }
 
 .butler_light {
@@ -54,4 +77,36 @@ body {
 
 .list_text {
   font-size: 2.1rem;
+}
+
+.about_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 66.6rem;
+  max-height: 39.4rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.about_text_background {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  padding: 1.5em 0.8em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about_main_header {
+  text-align: center;
+  font-size: 1em;
+}
+
+.about_subheader {
+  text-align: center;
+  margin: 0.8em 0 -2em;
 }
