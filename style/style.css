@@ -110,3 +110,44 @@ section {
   text-align: center;
   margin: 0.8em 0 -2em;
 }
+
+.biography_section {
+  margin: 8.4rem;
+}
+
+.biography_header {
+  top: 94%;
+  left: 100%;
+  transform: rotate(0.75turn);
+  position: absolute;
+}
+
+.biography_image {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-right: 5%;
+}
+
+.biography_text {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+
+.biography_padding {
+  padding-top: 3rem;
+}
+
+.biography_rectangle {
+  margin-top: 3rem;
+  width: 0.9rem;
+  height: 0.25rem;
+}
+
+.biography_quote_text {
+  margin-top: 2rem;
+  width: 80%
+}
