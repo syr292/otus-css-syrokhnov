@@ -22,7 +22,6 @@ body {
 }
 
 main {
-  max-width: 90rem;
   margin: 0 auto;
 }
 
@@ -109,4 +108,90 @@ section {
 .about_subheader {
   text-align: center;
   margin: 0.8em 0 -2em;
+}
+
+.biography_section {
+  margin: 8.4rem;
+}
+
+.biography_header {
+  top: 94%;
+  left: 100%;
+  transform: rotate(0.75turn);
+  position: absolute;
+}
+
+.biography_image {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-right: 5%;
+}
+
+.biography_text {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+
+.biography_padding {
+  padding-top: 3rem;
+}
+
+.biography_rectangle {
+  margin-top: 3rem;
+  width: 0.9rem;
+  height: 0.25rem;
+}
+
+.biography_quote_text {
+  margin-top: 2rem;
+  width: 80%
+}
+
+.designers_section {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin-top: 10.5rem;
+  background: red;
+  padding-right: 4.6rem;
+}
+
+.designer_header {
+  position: absolute;
+  transform: rotate(0.75turn);
+  left: 60%;
+  top: 0%;
+}
+
+.designer_wide {
+  max-width: 38rem;
+  max-height: 33.6rem;
+  margin-right: 7rem;
+}
+
+.designer {
+  max-width: 19.3rem;
+  max-height: 27.6rem;
+}
+
+.designer_image {
+  width: 100%;
+  max-height: 27.6rem;
+}
+
+.designer_image_wide {
+  max-height: 33.6rem;
+  width: 100%;
+}
+
+.designer_text {
+  margin-top: 1.5rem;
+}
+
+.designer_text_wide {
+  margin-left: 30%;
 }
