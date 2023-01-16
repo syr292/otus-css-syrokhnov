@@ -110,3 +110,65 @@ section {
   text-align: center;
   margin: 0.8em 0 -2em;
 }
+
+.biography_section {
+  /*background: green;*/
+  overflow: hidden;
+}
+
+.biography_section::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.biography_header {
+  bottom: 11%;
+  right: 2.9%;
+  transform: rotate(0.75turn);
+  position: absolute;
+}
+
+.biography_image {
+  max-width: 34.6rem;
+  max-height: 52.5rem;
+  object-fit: cover;
+}
+
+.biography_image_box, .biography_text{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.biography_image_box{
+  /*background: yellow;*/
+  text-align: right;
+  padding-right: 2.5%;
+}
+
+.biography_text {
+  /*background: red;*/
+  padding-top: 13%;
+  padding-left: 8%;
+  padding-right: 12%;
+}
+
+.biography_padding {
+  padding-top: 3rem;
+}
+
+.biography_rectangle {
+  margin-top: 3.7rem;
+  width: 0.9rem;
+  height: 0.25rem;
+  border-style: none;
+  border-width: 0;
+  background: black;
+}
+
+.biography_quote_text {
+  background-color: white;
+  margin-top: 1.9rem;
+  padding-right: 5%;
+}
